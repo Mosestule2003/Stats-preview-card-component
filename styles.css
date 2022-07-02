@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: hsl(233, 47%, 7%);
+}
+section{
+    align-items: center;
+     margin: auto;
+     width: 75%;
+     position: relative;
+     bottom: 10px;
+     padding-top: 100px;
+     height: 10%;
+     border-radius: 15px;
+}
+.body-content{
+    display: flex;
+     padding: 10px;
+     justify-content: space-between;
+     border-radius: 15px 0 0 15px ;
+}
+.content-1{
+    width: 50%;
+    border-radius: 15px 0 0 15px ;
+    background-color: hsl(244, 38%, 16%);
+}
+.content-2{
+    width: 50%;
+    border-radius:  0 15px 15px 0;
+}
+ /* Please can someone help with adding the semi-transparent background layer to the images section */
+.image{
+    border-radius: 0 15px 15px 0;
+    background-color:  hsl(277, 64%, 61%);
+    position: relative;
+}
+span{
+    color: hsl(277, 64%, 61%);
+    background-color: hsl(244, 38%, 16%);
+}
+.header-text{
+    padding: 30px 45px;
+    margin-left: 7px;
+    background-color: hsl(244, 38%, 16%);
+}
+h1{
+    font-weight: bolder;
+    font-size: 35px;
+    padding-top: 30px;
+    word-spacing: 5px;
+    background-color: hsl(244, 38%, 16%);
+    color: hsl(0, 0%, 100%);
+}
+.desc{
+    font-size: 18px;
+    padding: 0 45px;
+    font-weight: 600;
+    color:   hsla(0, 0%, 100%, 0.75);
+    background-color: hsl(244, 38%, 16%);
+}
+.header-text-ending{
+    display: flex;
+    padding: 50px 45px;
+    justify-content: space-between;
+    background-color: hsl(244, 38%, 16%);
+}
+.text-content{
+    color:  hsl(0, 0%, 100%);
+    background-color: hsl(244, 38%, 16%);
+}
+p{
+    background-color: hsl(244, 38%, 16%);
+}
+h2{
+    background-color: hsl(244, 38%, 16%);
+}
+.stats{
+    color: hsla(0, 0%, 100%, 0.6);
+}
+
+/* Responsiveness */
+@media only screen and (max-width:1080px){
+    h1{
+        font-size: 20px;
+    }
+    .desc{
+        font-size: 25px;
+    }
+    .header-text-ending{
+        font-size: 10px;
+    }
+    .body-content{
+        display: block;
+        width: 100%;
+    }
+    .content-1{
+        border-radius: 0;
+    }
+    .content-2{
+        border-radius: 0;
+    }
+    .image{
+        border-radius: 0;
+    }
+    section{
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:1200px){
+    h1{
+        font-size: 35px;
+    }
+    .desc{
+        font-size: 20px;
+        width: 100%;
+    }
+    .header-text-ending{
+        font-size: 15px;
+    }
+    .body-content{
+        display: block;
+        width: 100%;
+        /* position: relative;
+        left: 22% */
+        height: 100%;
+    }
+    .content-1{
+        border-radius: 0;
+        width: 100%;
+    }
+    .content-2{
+        border-radius: 0;
+        width: 100%;
+    }
+    .image{
+        border-radius: 0;
+        width: 100%;
+    }
+    section{
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+}
